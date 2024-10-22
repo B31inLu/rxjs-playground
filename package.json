@@ -2,12 +2,15 @@
     "name": "playground-rxjs",
     "type": "module",
     "engines": {
-        "node": "20^||22>="
+        "node": "20^||>=22"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "node ./src/main.js"
     },
     "dependencies": {
         "rxjs": "^7.8.1"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2"
     }
 }
